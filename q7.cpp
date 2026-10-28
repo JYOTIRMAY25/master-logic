@@ -14,12 +14,12 @@ int main(){
     std::cout<<"enter the  third number :"<<std::endl;
     std::cin>>c;
 
-    if (a>b && a>c)
+    if (a>=b && a>=c)
     {
         std:: cout<<"a is greater than b and c"<<std::endl;
 
     }
-    else if (b>a && b>c)
+    else if (b>=a && b>=c)
     {
         std::cout<<"b is greater than a and c"<<std::endl;
     }

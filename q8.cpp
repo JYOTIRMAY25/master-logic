@@ -18,10 +18,10 @@ int main(){
     }
     else
     {
-        std::cout<<"the temp is cold"<<std::endl;
+        std::cout<<"the temp is hot"<<std::endl;
     }
 
     return 0;
-    
+
 
 }
