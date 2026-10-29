@@ -23,15 +23,18 @@ int main(){
         else if (a==b||b==c||c==a){
             std::cout<<"it is an Isosceles triangle"<<std::endl;
         }
-        else{
+        else if (a!=b&&b!=c&&c!=a){
             std::cout<<"it is an Scalene triangle"<<std::endl;
+        }
+         else{
+        std::cout<<"not Valid Triangle"<<std::endl;
         }
     }
     else{
         std::cout<<"not Valid Triangle"<<std::endl;
 
     }
+    
     return 0;
-
 
 }
