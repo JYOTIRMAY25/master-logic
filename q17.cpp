@@ -16,7 +16,7 @@ int main(){
     {
         std::cout<<"both number are even"<<std::endl;
     }
-    else if (a%2==0&&b%2==0)
+    else if (a%2!=0&&b%2!=0)
     {
         std::cout<<"both number is odd"<<std::endl;
     }
