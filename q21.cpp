@@ -15,7 +15,7 @@ int main(){
         int b = (num/10)%10;
         int c = num/100;
 
-        if (a!=b||b!=c||c!=a)
+        if (a!=b&&b!=c&&c!=a)
         {
             std::cout<<"the number is distinct"<<std::endl;
         }
@@ -28,4 +28,6 @@ int main(){
     else{
         std::cout<<"invalid number!"<<std::endl;
     }   
+
+    return 0;
 }
