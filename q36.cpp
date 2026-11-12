@@ -1,25 +1,34 @@
 // Take two numbers and check if both are positive and their sum is less than 100. 
 
-#include <iostream>
+#include<iostream>
 
-int main() {
+int main(){
 
-    int a, b;
+    int a;
+    std::cout<<"enter the number a :"<<std::endl;
+    std::cin>>a;
 
-    std::cout << "Enter the first number: ";
-    std::cin >> a;
+    int b;
+    std::cout<<"enter the number b :"<<std::endl;
+    std::cin>>b;
 
-    std::cout << "Enter the second number: ";
-    std::cin >> b;
-
-    if (a > 0 && b > 0 && (a + b) <= 100)
+    if(a>=0||b>=0)
     {
-        std::cout << "Both numbers are positive and their sum is less than 100" << std::endl;
+        if ((a+b)<=100)
+        {
+            std::cout<<"both numbers are positive and their sum is less than 100"<<std::endl;
+        }
+        else
+        {
+            std::cout<<"both numbers are positive but their sum is greater than 100"<<std::endl;
+        }
+        
     }
     else
     {
-        std::cout << "Condition not satisfied" << std::endl;
+        std::cout<<"both numbers are not positive"<<std::endl;
     }
 
     return 0;
+
 }
